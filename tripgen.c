@@ -15,7 +15,7 @@
 #define DICT_SIZE 19000000
 
 char *saltMap = "................................"
-   				".............../0123456789ABCDEF"
+				".............../0123456789ABCDEF"
 				"GABCDEFGHIJKLMNOPQRSTUVWXYZabcde"
 				"fabcdefghijklmnopqrstuvwxyz....."
 				"................................"
@@ -57,7 +57,7 @@ void generateTripcode (char *buf, char *password) {
 int main (int argc, char *argv[]) {
 
 	if (argc != 2) {
-		printf("Usage: %s [tripcode]\n", argv[0]);
+		printf("Usage: %s [password]\n", argv[0]);
 		return 0;
 	}
 
